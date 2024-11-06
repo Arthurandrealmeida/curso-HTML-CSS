@@ -1,0 +1,151 @@
+.centro {
+    text-align: center;
+    color:white;
+    
+}
+
+header {
+    background-image: linear-gradient(to top, green, rgb(0, 255, 0));
+    background-color:chartreuse;
+    margin: 0%;
+    padding:0%;
+    height: 225px;
+    width: 100%;
+   
+}
+
+div.main {
+    background-color: rgb(247, 244, 242);
+    width: 85%;
+    height: 3600px;
+    margin:auto;
+}
+
+body {
+    
+    margin: -21px;
+    background-color: rgb(112, 211, 120);
+}
+
+.principal {
+    padding-left: 40px;
+    text-align: center;
+    
+}
+
+h2 {
+    color:rgb(59, 141, 59);
+}
+
+h3 {
+    
+    background-image:linear-gradient(to right, rgb(7, 211, 7) , rgba(34, 224, 50, 0.308) )  ; 
+    width: 75%;
+    text-align: left;
+    
+    
+}
+
+mark {
+    
+    background-color: rgba(0, 128, 0, 0.308);
+    font-weight: bolder;
+}
+
+
+
+.dan img{
+    max-width: 100%; /* essas 2 linhas deixa a imagem responsiva MT IMPORTANTE */
+    height: auto;
+    display:block; /* essas 2 linhas são para centralizar. e precisa ter o display:block*/
+    margin:auto;
+   
+}
+
+nav {
+    margin-top: 120px;
+    margin-left: 100px;
+    color:aliceblue;
+}
+
+nav:hover{
+    background-color: rgb(0, 255, 85);
+    width: 430px;
+}
+
+nav:active {
+    transform: scale(0.91);
+}
+
+.texto{
+    padding:20px;
+    text-align:left;
+}
+
+.muie{
+    display:block;
+    background-color: black;
+    width: 85%;
+    height: 750px;
+    margin: auto;
+}
+
+.android {
+    background-color: rgb(53, 48, 48);
+    height: 400px;
+    width: 400px;
+    margin:auto;
+    
+}
+
+.video {
+    display:inline;
+    padding:100px;
+}
+
+.quer {
+    background-color: rgb(75, 122, 75);
+    color:aliceblue;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.final {
+    background-color: rgb(206, 255, 156);
+    height: 450px;
+}
+
+.lado {
+    margin-left: 300px;
+    margin-top: -150px;
+}
+
+.final2 {
+    margin: 10px;
+    padding-left: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 97, 13);
+    color:white;
+    height: 45px;
+    padding-top:15px;
+}
+
+div.video { /* tudo que é video na classe div*/
+    background-color:rgb(181, 255, 167);
+    padding:20px;
+    left:14%;
+    border-radius:10px;
+    position:absolute;
+    width: 58%;
+    margin:auto;
+    
+}
+
+div.video > iframe {
+    position:relative;
+    left:20%;
+    
+}

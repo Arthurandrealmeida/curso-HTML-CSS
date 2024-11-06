@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+
+    <style>
+
+        body {
+                
+                background-image: url('imagens/jesus water.png') ; 
+                background-repeat: no-repeat; /* faz a imagem não se multiplicar*/
+                /*background-position-y: center;          <------ isso centraliza em vertical
+                background-position-x: center;            <------ isso faz centralizar horizontal  */
+                display: flex;
+                flex-direction: column; 
+                align-items: end; /* faz com que os itens fiquem no final ( a direita ) da pagina*/
+                margin: 0; /* Remove qualquer margem padrão do navegador */
+                height: 100vh; /* Ocupar toda a altura da tela */
+                background-size: cover ; /* faz com que a imagem fique em toda a tela*/
+       }
+        .quadrado {
+            border: 2px solid rgb(7, 7, 7);
+            width: 580px;
+            max-width: 590px;
+            min-height: 260px;
+            margin:2px;
+            background-color:lightblue;
+            border-radius: 40px;
+            
+        }
+            div#q1 {
+                background-color:rgb(55, 218, 69);
+               
+            }
+        
+            div#q2 {
+                background-image:linear-gradient(to right, blue, red); 
+               
+            }
+
+            div#q3 {
+                background-image: url('imagens/God.png');
+                
+                
+            }
+
+            .principal{
+
+                color:rgb(255, 255, 255);
+                font-family:Arial, Helvetica, sans-serif;
+                align-self: flex-start; /* Move a classe principal para o início da página, pois o display esta como flex então precisa usar assim flex-inicio*/
+                position: relative; /* Usando position relative para ajustar o texto sem afetar outros elementos */
+                padding:10px
+                }
+            
+    </style>
+
+</head>
+<body>
+   <span class="principal">
+    <h1 class="texto">Gostou?</h1>
+    <p class="texto">não é mt bonito usar imagem no body </p> </span> 
+
+    <div CLASS="quadrado" id="q1"></div>
+
+    <div CLASS="quadrado" id="q2"></div>
+    
+    <div CLASS="quadrado" id="q3"></div>
+    
+</body>
+</html>
